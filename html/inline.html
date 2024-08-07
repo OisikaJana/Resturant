@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Example</title>
+    <style>
+      /* Internal CSS */
+      p {
+        border: 2px solid;
+        padding: 4px;
+      }
+      h1 {
+        border: 2px solid;
+        color: blue;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body
+    style="
+      /* Inline CSS  */
+      text-align: center;
+      color: blue;
+      background-color: lightgray;
+    "
+  >
+    <h1 style="text-align: center">
+      Inline, Internal, and External CSS Example
+    </h1>
+    <p>This paragraph uses inline CSS to set its text color to red.</p>
+    <p class="internal-css">
+      This paragraph uses internal CSS to set its font size to 20px.
+    </p>
+    <p id="external-css">
+      This paragraph uses external CSS to set its background color to yellow.
+    </p>
+  </body>
+</html>
