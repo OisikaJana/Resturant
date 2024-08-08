@@ -1,0 +1,14 @@
+/* External CSS */
+*{
+    background-color: aliceblue;
+}
+#external-css {
+    text-align: center;
+    background-color: yellow;
+}
+.internal-css {
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
